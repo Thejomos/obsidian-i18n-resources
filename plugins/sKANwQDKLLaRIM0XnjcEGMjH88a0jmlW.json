@@ -1,0 +1,310 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-link-converter",
+        "version": "1.0.0",
+        "title": "Link Converter",
+        "description": "Link Converter Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.6",
+        "author": "Thejomo"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Shortest Path",
+                    "target": "最短路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Absolute Path",
+                    "target": "绝对路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Relative Path",
+                    "target": "相对路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Do not change",
+                    "target": "不改变"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "coffee",
+                    "target": "coffee"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "img",
+                    "target": "img"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Link Converter Loading...",
+                    "target": "Link Converter Loading..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Link Converter Unloading...",
+                    "target": "链接转换器卸载中..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn this option off if you don't want single file commands to appear within the file context menu",
+                    "target": "如果你不希望单个文件命令出现在文件上下文菜单中，请关闭此选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the preferred option for the final link format after the conversion. Plugin will use the preferrence where possible",
+                    "target": "选择转换后最终链接格式的首选选项。插件将尽可能使用该偏好"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn on this option if you want plugin to keep the mtime of files same during the link conversion",
+                    "target": "如果你希望插件在链接转换期间保持文件的mtime不变，请开启此选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "File Context Menu",
+                    "target": "文件上下文菜单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Converted Link Format",
+                    "target": "转换后的链接格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Keep mTime (Last Modified Time)",
+                    "target": "保持mTime（最后修改时间）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Markdown Links to Wiki",
+                    "target": "Markdown链接转Wiki链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "WikiLinks to Markdown",
+                    "target": "Wiki链接转Markdown"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Active File is not a Markdown File",
+                    "target": "活动文件不是Markdown文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Starting link conversion",
+                    "target": "正在开始链接转换"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "You didn't select any text.",
+                    "target": "你未选择任何文本。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "There is no active leaf open.",
+                    "target": "没有打开的活跃叶子。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Active File: Links to Markdown",
+                    "target": "活跃文件：链接到Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Active File: Links to Wiki",
+                    "target": "活跃文件：链接到Wiki"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Vault: Links to Markdown",
+                    "target": "仓库：链接到Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Vault: Links to Wiki",
+                    "target": "仓库：链接到Wiki"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Certain Folder: Links to Markdown",
+                    "target": "特定文件夹：链接到Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Certain Folder: Links to Wiki",
+                    "target": "特定文件夹：链接到Wiki"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Editor Selection: Links to Markdown",
+                    "target": "编辑器选中内容：链接到Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Editor Selection: Links to Wiki",
+                    "target": "编辑器选中内容：链接到Wiki"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Obsidian Link Converter",
+                    "target": "Obsidian 链接转换器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Continue",
+                    "target": "Continue"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cancel",
+                    "target": "取消"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(\"File Context Menu\")",
+                    "target": "setName(\"File Context Menu\")"
+                },
+                {
+                    "source": "setDesc(\"Turn this option off if you don't want single file commands to appear within the file context menu\")",
+                    "target": "setDesc(\"Turn this option off if you don't want single file commands to appear within the file context menu\")"
+                },
+                {
+                    "source": "setName(\"Converted Link Format\")",
+                    "target": "setName(\"Converted Link Format\")"
+                },
+                {
+                    "source": "setDesc(\"Select the preferred option for the final link format after the conversion. Plugin will use the preferrence where possible\")",
+                    "target": "setDesc(\"Select the preferred option for the final link format after the conversion. Plugin will use the preferrence where possible\")"
+                },
+                {
+                    "source": "setName(\"Keep mTime (Last Modified Time)\")",
+                    "target": "setName(\"Keep mTime (Last Modified Time)\")"
+                },
+                {
+                    "source": "setDesc(\"Turn on this option if you want plugin to keep the mtime of files same during the link conversion\")",
+                    "target": "setDesc(\"Turn on this option if you want plugin to keep the mtime of files same during the link conversion\")"
+                },
+                {
+                    "source": "Notice(\"Active File is not a Markdown File\")",
+                    "target": "Notice(\"Active File is not a Markdown File\")"
+                },
+                {
+                    "source": "Notice(\"Starting link conversion\",0);try{let t=e.length,i=0;for(let s of e)i++,l.setMessage(`Converting the links in notes ${i}/${t}.`),d(n.app,s.path,\"excalidraw-plugin\")",
+                    "target": "Notice(\"Starting link conversion\",0);try{let t=e.length,i=0;for(let s of e)i++,l.setMessage(`Converting the links in notes ${i}/${t}.`),d(n.app,s.path,\"excalidraw-plugin\")"
+                },
+                {
+                    "source": "Notice(\"You didn't select any text.\")",
+                    "target": "Notice(\"You didn't select any text.\")"
+                },
+                {
+                    "source": "setTitle(\"Markdown Links to Wiki\")",
+                    "target": "setTitle(\"Markdown Links to Wiki\")"
+                },
+                {
+                    "source": "setTitle(\"WikiLinks to Markdown\")",
+                    "target": "setTitle(\"WikiLinks to Markdown\")"
+                },
+                {
+                    "source": "setTitle(\"All Links to \"+(\"absolute-path\"===a?\"Absolute Path\":\"shortest-path\"===a?\"Shortest Path\":\"Relative Path\")",
+                    "target": "setTitle(\"All Links to \"+(\"absolute-path\"===a?\"Absolute Path\":\"shortest-path\"===a?\"Shortest Path\":\"Relative Path\")"
+                },
+                {
+                    "source": "log(\"Link Converter Loading...\")",
+                    "target": "log(\"Link Converter Loading...\")"
+                },
+                {
+                    "source": "log(\"Link Converter Unloading...\")",
+                    "target": "log(\"Link Converter Unloading...\")"
+                },
+                {
+                    "source": "text:\"Obsidian Link Converter\"",
+                    "target": "text:\"Obsidian Link Converter\""
+                },
+                {
+                    "source": "name:\"Active File: Links to Markdown\"",
+                    "target": "name:\"Active File: Links to Markdown\""
+                },
+                {
+                    "source": "name:\"Active File: Links to Wiki\"",
+                    "target": "name:\"Active File: Links to Wiki\""
+                },
+                {
+                    "source": "name:\"Vault: Links to Markdown\"",
+                    "target": "name:\"Vault: Links to Markdown\""
+                },
+                {
+                    "source": "name:\"Vault: Links to Wiki\"",
+                    "target": "name:\"Vault: Links to Wiki\""
+                },
+                {
+                    "source": "name:\"Certain Folder: Links to Markdown\"",
+                    "target": "name:\"Certain Folder: Links to Markdown\""
+                },
+                {
+                    "source": "name:\"Certain Folder: Links to Wiki\"",
+                    "target": "name:\"Certain Folder: Links to Wiki\""
+                },
+                {
+                    "source": "name:\"Editor Selection: Links to Markdown\"",
+                    "target": "name:\"Editor Selection: Links to Markdown\""
+                },
+                {
+                    "source": "name:\"Editor Selection: Links to Wiki\"",
+                    "target": "name:\"Editor Selection: Links to Wiki\""
+                }
+            ]
+        }
+    }
+}
