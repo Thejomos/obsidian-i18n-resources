@@ -1,0 +1,1332 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "consistent-attachments-and-links",
+        "version": "1.0.0",
+        "title": "Consistent Attachments and Links",
+        "description": "Consistent Attachments and Links Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "3.33.8",
+        "author": "jiumo"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ": ",
+                    "target": ": "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "When the folder becomes empty, ",
+                    "target": "当文件夹变为空时，"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " - will keep the empty folder, ",
+                    "target": "- 将保留空文件夹，"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " - will delete the empty folder, ",
+                    "target": "- 将删除空文件夹，"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " - will delete the empty folder and its empty parent folders.",
+                    "target": "- 将删除空文件夹及其空父文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Include notes from the following paths",
+                    "target": "包含以下路径的笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Insert each path on a new line",
+                    "target": "每行输入一个路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "You can use path string or ",
+                    "target": "您可以使用路径字符串或"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If the setting is empty, all notes are included",
+                    "target": "若该设置为空，则包含所有笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Exclude notes from the following paths",
+                    "target": "排除以下路径的笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If the setting is empty, no notes are excluded",
+                    "target": "如果该设置为空，则不会排除任何笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Exclude attachments from the following paths when ",
+                    "target": "排除以下路径中的附件，当执行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " command is executed.",
+                    "target": "命令时。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If the setting is empty, no paths are excluded from attachment collecting.",
+                    "target": "如果该设置为空，收集附件时不会排除任何路径。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Treat files with these extensions as attachments.",
+                    "target": "将具有这些扩展名的文件视为附件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "By default, ",
+                    "target": "默认情况下，"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " and ",
+                    "target": "和"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " linked files are not treated as attachments and are not moved with the note.",
+                    "target": "链接文件不会被视为附件，也不会随笔记一起移动。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "You can add custom extensions, e.g. ",
+                    "target": "您可以添加自定义扩展名，例如"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ", ",
+                    "target": "，"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ", to override this behavior.",
+                    "target": ", 以覆盖此行为。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Insert each extension on a new line.",
+                    "target": "将每个扩展名放在新的一行。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " - ",
+                    "target": " - "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "You enabled ",
+                    "target": "您已启用 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " setting. Without proper configuration it might lead to inconvenient attachment rearrangements or even data loss in your vault.",
+                    "target": " 设置。如果没有正确配置，可能会导致附件重新排列不便，甚至导致您的笔记库数据丢失。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "It is ",
+                    "target": "这是 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " recommended to backup your vault before using the plugin.",
+                    "target": " 建议在使用插件前备份您的笔记库。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " about how to use the plugin.",
+                    "target": " 关于如何使用该插件的说明。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " Consistent Attachments and Links",
+                    "target": " 一致的附件和链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Using 'Consistent Attachments and Links' plugin without proper configuration might lead to inconvenient attachment rearrangements or even data loss in your vault.",
+                    "target": "使用 '一致的附件和链接' 插件而没有正确配置，可能会导致附件重新排列不便，甚至导致您的笔记库数据丢失。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Some of your plugin settings has been changed to their safe values.",
+                    "target": "你的部分插件设置已被修改为安全值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "This warning will not appear again.",
+                    "target": "此警告将不再显示。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "br",
+                    "target": "br"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "style",
+                    "target": "style"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "progress",
+                    "target": "progress"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "strong",
+                    "target": "strong"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "code",
+                    "target": "code"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "ul",
+                    "target": "ul"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "li",
+                    "target": "li"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "pre",
+                    "target": "pre"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No Intl support, please use an Intl polyfill!",
+                    "target": "不支持 Intl，请使用 Intl 兼容垫片！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Only canvas changes are supported for canvas files",
+                    "target": "Canvas 文件仅支持对 canvas 内容的修改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Node not found",
+                    "target": "未找到节点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Node text is not a string",
+                    "target": "节点文本不是字符串类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unsupported file change",
+                    "target": "不支持的文件变更"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing item",
+                    "target": "处理项目时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "initialized",
+                    "target": "已初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically move attachments when a note is relocated. This includes attachments located in the same folder or any of its subfolders.",
+                    "target": "移动笔记时自动迁移其附件，包括位于同一文件夹或其任意子文件夹中的附件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically remove attachments that are no longer referenced in other notes when the note is deleted.",
+                    "target": "删除笔记时自动移除不再被其他笔记引用的附件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically update links to attachments and other notes when moving notes or attachments.",
+                    "target": "移动笔记或附件时，自动更新指向附件和其他笔记的链接。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically delete attachments when moving a note if a file with the same name exists in the destination folder. If disabled, the file will be renamed and moved.",
+                    "target": "移动笔记时，如果目标文件夹中存在同名文件，自动删除附件。如果禁用此选项，文件将被重命名后移动。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When a note is renamed, its linked references are automatically updated. If this option is enabled, the text of backlinks to this note will also be modified.",
+                    "target": "重命名笔记时，其链接引用会自动更新。如果启用此选项，指向该笔记的反向链接文本也会被修改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Specify the name of the file for the consistency report.",
+                    "target": "指定一致性报告的文件名。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically collect attachments when the note is edited.",
+                    "target": "编辑笔记时自动收集附件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Update links",
+                    "target": "更新链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Empty folder behavior",
+                    "target": "空文件夹处理行为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Update backlink text on note rename",
+                    "target": "重命名笔记时更新反向链接文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Consistency report filename",
+                    "target": "一致性报告文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include paths",
+                    "target": "包含路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Exclude paths",
+                    "target": "排除路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Exclude paths from attachment collecting",
+                    "target": "从附件收集中排除的路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Treat as attachment extensions",
+                    "target": "视为附件的文件扩展名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Instance method `debug.destroy()` is deprecated and no longer does anything. It will be removed in the next major version of `debug`.",
+                    "target": "实例方法 `debug.destroy()` 已弃用，当前不再执行任何操作。它将在 `debug` 的下一个主要版本中被移除。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "accessing an object - but returnObjects options is not enabled!",
+                    "target": "正在访问对象，但 returnObjects 选项未启用！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Seems the loaded translations were in flat JSON format instead of nested. Either set keySeparator: false on init or make sure your translations are published in nested format.",
+                    "target": "看起来加载的翻译是扁平化 JSON 格式而非嵌套格式。请在初始化时设置 keySeparator: false，或确保您的翻译以嵌套格式发布。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "This means something IS WRONG in your setup. You access the t function before i18next.init / i18next.loadNamespace / i18next.changeLanguage was done. Wait for the callback or Promise to resolve before accessing it!!!",
+                    "target": "这意味着您的配置存在错误。您在 `i18next.init` / `i18next.loadNamespace` / `i18next.changeLanguage` 执行完成前就访问了 t 函数。请等待回调或 Promise 完成后再访问它！！！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "nesting options string contains interpolated variables with escapeValue: false — if any of those values are attacker-controlled they can inject additional nesting options (e.g. redirect lng/ns). Sanitise untrusted input before passing it to t(), or keep escapeValue: true.",
+                    "target": "嵌套选项字符串包含 escapeValue: false 的插值变量 —— 如果其中任意值由攻击者控制，他们就可以注入额外的嵌套选项（例如重定向 lng/ns）。请在将不受信任的输入传递给 t() 之前对其进行清理，或保持 escapeValue: true 配置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No backend was added via i18next.use. Will not load resources.",
+                    "target": "未通过 i18next.use 添加后端，将不会加载资源。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: no languageDetector is used and no lng is defined",
+                    "target": "初始化：未使用语言检测器，且未定义 lng 参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: i18next is already initialized. You should call init just once!",
+                    "target": "初始化：i18next 已完成初始化，您仅应调用一次 init 方法！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18next was not initialized",
+                    "target": "hasLoadedNamespace：i18next 尚未初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18n.languages were undefined or empty",
+                    "target": "hasLoadedNamespace：i18n.languages 未定义或为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[remark-wiki-link] Warning: please upgrade to remark 13 to use this plugin",
+                    "target": "[remark-wiki-link] 警告：请升级到 remark 13 版本以使用此插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "I18N was not initialized, initializing default obsidian-dev-utils translations",
+                    "target": "I18N 尚未初始化，正在初始化 obsidian-dev-utils 的默认翻译资源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Can't move file. Source and destination path the same.",
+                    "target": "无法移动文件，源路径与目标路径一致"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "File was moved already",
+                    "target": "文件已被移动"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No embeds found that need to be converted",
+                    "target": "未找到需要转换的嵌入内容"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No links found that need to be converted",
+                    "target": "未找到需要转换的链接"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Reorganization of the vault completed",
+                    "target": "存储库重组已完成"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No wiki embeds found that need to be replaced",
+                    "target": "未找到需要替换的维基嵌入内容"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No wiki links found that need to be replaced",
+                    "target": "未找到需要替换的维基链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "markdown-rendered code",
+                    "target": "markdown-rendered code"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "all files are renamed.",
+                    "target": "所有文件均已重命名。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "their names are preserved.",
+                    "target": "其名称保持不变。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "only pasted images are renamed. Applies only when the PNG image content is pasted from the clipboard directly. Typically, for pasting screenshots.",
+                    "target": "仅重命名粘贴的图片。仅适用于直接从剪贴板粘贴PNG图片内容的场景，通常用于粘贴截图。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "cancel the attachment collecting.",
+                    "target": "取消附件收集。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "copy the attachment to the new location.",
+                    "target": "将附件复制到新位置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "move the attachment to the new location.",
+                    "target": "将附件移动到新位置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "prompt the user to choose the action.",
+                    "target": "提示用户选择操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "skip the attachment and proceed to the next one.",
+                    "target": "跳过当前附件，继续处理下一个。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "will delete the empty attachment folder.",
+                    "target": "将删除空的附件文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "will delete the empty attachment folder and its empty parent folders.",
+                    "target": "将删除空的附件文件夹及其空的父文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "will keep the empty attachment folder.",
+                    "target": "将保留空的附件文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "copy the attachment to the new location for all notes.",
+                    "target": "为所有笔记将附件复制到新位置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The smaller the quality, the greater the compression ratio.",
+                    "target": "质量值越小，压缩比越大。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whether to convert pasted images to JPEG. Applies only when the PNG image content is pasted from the clipboard directly. Typically, for pasting screenshots.",
+                    "target": "是否将粘贴的图片转换为JPEG格式。仅适用于直接从剪贴板粘贴PNG图片内容的场景，通常为粘贴截图的情况。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If enabled, when the note is deleted, its orphan attachments are deleted as well.",
+                    "target": "启用后，删除笔记时也会同时删除其孤立的附件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whether to handle renames.",
+                    "target": "是否处理重命名操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whether to rename attachment folders when a note is renamed or moved.",
+                    "target": "重命名或移动笔记时是否同步重命名附件文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Collecting attachment used by multiple notes",
+                    "target": "收集多条笔记共用的附件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Collecting attachments {{iterationStr}} - '{{noteFilePath}}'.",
+                    "target": "正在收集附件 {{iterationStr}} - '{{noteFilePath}}'。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Moving attachment to proper folder {{iterationStr}} - '{{attachmentFilePath}}'.",
+                    "target": "正在将附件移动到正确文件夹 {{iterationStr}} - '{{attachmentFilePath}}'。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Are you sure you want to reset the custom tokens to the sample custom tokens? Your changes will be lost.",
+                    "target": "您确定要将自定义标记重置为示例自定义标记吗？您的所有修改将会丢失。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "attention",
+                    "target": "注意"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "autolink",
+                    "target": "自动链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "definition",
+                    "target": "定义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "list",
+                    "target": "列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Check vault consistency",
+                    "target": "检查库一致性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Collect attachments in entire vault",
+                    "target": "收集整个知识库中的附件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Collect attachments in current folder",
+                    "target": "收集当前文件夹中的附件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Collect attachments in current note",
+                    "target": "收集当前笔记中的附件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert all embed paths to relative",
+                    "target": "将所有嵌入路径转换为相对路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert all embed paths to relative in current note",
+                    "target": "将当前笔记中所有嵌入路径转换为相对路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert all link paths to relative",
+                    "target": "将所有链接路径转换为相对路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert all link paths to relative in current note",
+                    "target": "将当前笔记中所有链接路径转换为相对路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete empty folders",
+                    "target": "删除空文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move attachment to proper folder",
+                    "target": "将附件移动到合适的文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reorganize vault",
+                    "target": "重新整理知识库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Replace all wiki embeds with Markdown embeds",
+                    "target": "将所有Wiki嵌入替换为Markdown嵌入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Replace all wiki embeds with Markdown embeds in current note",
+                    "target": "在当前笔记中将所有Wiki嵌入替换为Markdown嵌入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Replace all wikilinks with markdown links",
+                    "target": "将所有维基链接替换为Markdown链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Replace all wikilinks with markdown links in current note",
+                    "target": "在当前笔记中将所有维基链接替换为Markdown链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Attachment rename mode",
+                    "target": "附件重命名模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Collect attachment used by multiple notes mode",
+                    "target": "多笔记共用附件收集模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Collected attachment file name",
+                    "target": "已收集附件文件名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Custom tokens",
+                    "target": "自定义令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Default image size",
+                    "target": "默认图片尺寸"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Duplicate name separator",
+                    "target": "重名分隔符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Empty attachment folder behavior",
+                    "target": "空附件文件夹行为"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Exclude paths",
+                    "target": "排除路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Exclude paths from attachment collecting",
+                    "target": "收集附件时排除的路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Generated attachment file name",
+                    "target": "生成的附件文件名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Include paths",
+                    "target": "包含路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "JPEG Quality",
+                    "target": "JPEG 质量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Location for new attachments",
+                    "target": "新附件存储位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Markdown URL format",
+                    "target": "Markdown URL 格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move attachment to proper folder used by multiple notes mode",
+                    "target": "多笔记模式下将附件移动至合适文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Renamed attachment file name",
+                    "target": "重命名后的附件文件名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Should convert pasted images to JPEG",
+                    "target": "应将粘贴的图片转换为JPEG格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Should delete orphan attachments",
+                    "target": "应删除孤立附件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Should handle renames",
+                    "target": "应处理重命名操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Should rename attachment files",
+                    "target": "应重命名附件文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Should rename attachment folders",
+                    "target": "应重命名附件文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Should rename collected attachments",
+                    "target": "应重命名已收集的附件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Special characters",
+                    "target": "特殊字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Special characters replacement",
+                    "target": "特殊字符替换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Timeout in seconds",
+                    "target": "超时时间（秒）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Treat as attachment extensions",
+                    "target": "视为附件的文件扩展名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "prop",
+                    "source": "Keep",
+                    "target": "保留"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "prop",
+                    "source": "Delete",
+                    "target": "删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "prop",
+                    "source": "Delete with empty parents",
+                    "target": "删除时一并移除空父节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Read more",
+                    "target": "查看更多"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Collecting attachments...",
+                    "target": "正在收集附件..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Moving attachment to proper folder...",
+                    "target": "正在将附件移动到对应文件夹..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Reset to sample custom tokens",
+                    "target": "重置为示例自定义令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Preview attachment file '{{fullFileName}}'",
+                    "target": "预览附件文件 '{{fullFileName}}'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Provide a value for the prompt token",
+                    "target": "为提示词令牌提供值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "checkbox",
+                    "target": "checkbox"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"No Intl support, please use an Intl polyfill!\")",
+                    "target": "error(\"没有 Intl 支持，请使用 Intl polyfill！\")"
+                },
+                {
+                    "source": "error(\"Node not found\",{nodeIndex:c,path:n}),null;if(typeof d.text!=\"string\")",
+                    "target": "error(\"未找到节点\",{nodeIndex:c,path:n}),null;if(typeof d.text!=\"string\")"
+                },
+                {
+                    "source": "Notice(`${this.pluginName}\n${e}`)",
+                    "target": "Notice(`${this.pluginName}\\n${e}`)"
+                },
+                {
+                    "source": "error(`Cancelling collecting attachments, as attachment ${P.oldAttachmentPath} is referenced by multiple notes.\n${A}`)",
+                    "target": "error(`正在取消收集附件，因为附件 ${P.oldAttachmentPath} 被多个笔记引用。\\n${A}`)"
+                },
+                {
+                    "source": "error(`Invalid settings from data.json. Expected Object, got: ${typeof n}`)",
+                    "target": "error(`来自 data.json 的设置无效。期望对象，实际获取: ${typeof n}`)"
+                },
+                {
+                    "source": "setDesc(\"Automatically move attachments when a note is relocated. This includes attachments located in the same folder or any of its subfolders.\")",
+                    "target": "setDesc(\"当笔记移动时自动移动附件。这包括位于同一文件夹或其任何子文件夹中的附件。\")"
+                },
+                {
+                    "source": "setDesc(\"Automatically remove attachments that are no longer referenced in other notes when the note is deleted.\")",
+                    "target": "setDesc(\"当笔记被删除时，自动移除不再被其他笔记引用的附件。\")"
+                },
+                {
+                    "source": "setName(\"Update links\")",
+                    "target": "setName(\"更新链接\")"
+                },
+                {
+                    "source": "setDesc(\"Automatically update links to attachments and other notes when moving notes or attachments.\")",
+                    "target": "setDesc(\"移动笔记或附件时自动更新附件和其他笔记的链接。\")"
+                },
+                {
+                    "source": "setName(\"Empty folder behavior\")",
+                    "target": "setName(\"空文件夹行为\")"
+                },
+                {
+                    "source": "appendText(\"When the folder becomes empty, \")",
+                    "target": "appendText(\"当文件夹变为空时，\")"
+                },
+                {
+                    "source": "appendText(\" - will keep the empty folder, \")",
+                    "target": "appendText(\" - 将保留空文件夹，\")"
+                },
+                {
+                    "source": "appendText(\" - will delete the empty folder, \")",
+                    "target": "appendText(\" - 将删除空文件夹，\")"
+                },
+                {
+                    "source": "appendText(\" - will delete the empty folder and its empty parent folders.\")",
+                    "target": "appendText(\" - 将删除空文件夹及其空父文件夹。\")"
+                },
+                {
+                    "source": "setDesc(\"Automatically delete attachments when moving a note if a file with the same name exists in the destination folder. If disabled, the file will be renamed and moved.\")",
+                    "target": "setDesc(\"移动笔记时，如果目标文件夹中存在同名文件，则自动删除附件。如果禁用，文件将被重命名并移动。\")"
+                },
+                {
+                    "source": "setName(\"Update backlink text on note rename\")",
+                    "target": "setName(\"重命名笔记时更新反向链接文本\")"
+                },
+                {
+                    "source": "setDesc(\"When a note is renamed, its linked references are automatically updated. If this option is enabled, the text of backlinks to this note will also be modified.\")",
+                    "target": "setDesc(\"当笔记被重命名时，其链接引用会自动更新。如果启用此选项，指向此笔记的反向链接文本也将被修改。\")"
+                },
+                {
+                    "source": "setName(\"Consistency report filename\")",
+                    "target": "setName(\"一致性报告文件名\")"
+                },
+                {
+                    "source": "setDesc(\"Specify the name of the file for the consistency report.\")",
+                    "target": "setDesc(\"指定一致性报告的文件名。\")"
+                },
+                {
+                    "source": "setDesc(\"Automatically collect attachments when the note is edited.\")",
+                    "target": "setDesc(\"编辑笔记时自动收集附件。\")"
+                },
+                {
+                    "source": "setName(\"Include paths\")",
+                    "target": "setName(\"包含路径\")"
+                },
+                {
+                    "source": "appendText(\"Include notes from the following paths\")",
+                    "target": "appendText(\"包含以下路径中的笔记\")"
+                },
+                {
+                    "source": "appendText(\"Insert each path on a new line\")",
+                    "target": "appendText(\"每个路径一行\")"
+                },
+                {
+                    "source": "appendText(\"You can use path string or \")",
+                    "target": "appendText(\"您可以使用路径字符串或 \")"
+                },
+                {
+                    "source": "appendText(\"If the setting is empty, all notes are included\")",
+                    "target": "appendText(\"如果设置为空，则包含所有笔记\")"
+                },
+                {
+                    "source": "appendText(\"By default, \")",
+                    "target": "appendText(\"默认情况下，\")"
+                },
+                {
+                    "source": "appendText(\", to override this behavior.\")",
+                    "target": "appendText(\", 以覆盖此行为。\")"
+                },
+                {
+                    "source": "appendText(\"Insert each extension on a new line.\")",
+                    "target": "appendText(\"将每个扩展名放在新行上。\")"
+                },
+                {
+                    "source": "appendText(\"You enabled \")",
+                    "target": "appendText(\"您已启用 \")"
+                },
+                {
+                    "source": "appendText(\" setting. Without proper configuration it might lead to inconvenient attachment rearrangements or even data loss in your vault.\")",
+                    "target": "appendText(\" 设置。如果没有正确配置，可能会导致附件不方便地重新排列，甚至导致保管库中的数据丢失。\")"
+                },
+                {
+                    "source": "appendText(\"It is \")",
+                    "target": "appendText(\"这是 \")"
+                },
+                {
+                    "source": "appendText(\" recommended to backup your vault before using the plugin.\")",
+                    "target": "appendText(\" 建议在使用插件之前备份你的保管库。\")"
+                },
+                {
+                    "source": "appendText(\" about how to use the plugin.\")",
+                    "target": "appendText(\" 关于如何使用插件。\")"
+                },
+                {
+                    "source": "appendText(\" Consistent Attachments and Links\")",
+                    "target": "appendText(\" 一致的附件和链接\")"
+                },
+                {
+                    "source": "Notice(\"No embeds found that need to be converted\")",
+                    "target": "Notice(\"没有找到需要转换的嵌入内容\")"
+                },
+                {
+                    "source": "Notice(`Converted ${String(e)} embed${e>1?\"s\":\"\"} from ${String(n)} note${n>1?\"s\":\"\"}`)",
+                    "target": "Notice(`已转换 ${String(e)} 嵌入${e>1?\"s\":\"\"} 从 ${String(n)} 笔记${n>1?\"s\":\"\"}`)"
+                },
+                {
+                    "source": "Notice(\"No links found that need to be converted\")",
+                    "target": "Notice(\"未找到需要转换的链接\")"
+                },
+                {
+                    "source": "Notice(`Replaced ${String(e)} wiki embed${e>1?\"s\":\"\"} from ${String(n)} note${n>1?\"s\":\"\"}`)",
+                    "target": "Notice(`从 ${String(n)} 篇笔记${n>1?\"s\":\"\"}中替换了 ${String(e)} 个 wiki 嵌入${e>1?\"s\":\"\"}`)"
+                },
+                {
+                    "source": "name:\"Check vault consistency\"",
+                    "target": "name:\"检查库一致性\""
+                },
+                {
+                    "source": "name:\"Collect attachments in entire vault\"",
+                    "target": "name:\"收集整个库的附件\""
+                },
+                {
+                    "source": "name:\"Collect attachments in current folder\"",
+                    "target": "name:\"收集当前文件夹的附件\""
+                },
+                {
+                    "source": "name:\"Collect attachments in current note\"",
+                    "target": "name:\"收集当前笔记中的附件\""
+                },
+                {
+                    "source": "name:\"Convert all embed paths to relative\"",
+                    "target": "name:\"将所有嵌入路径转换为相对路径\""
+                },
+                {
+                    "source": "name:\"Convert all embed paths to relative in current note\"",
+                    "target": "name:\"将当前笔记中的所有嵌入路径转换为相对路径\""
+                },
+                {
+                    "source": "name:\"Convert all link paths to relative\"",
+                    "target": "name:\"将所有链接路径转换为相对路径\""
+                },
+                {
+                    "source": "name:\"Convert all link paths to relative in current note\"",
+                    "target": "name:\"将当前笔记中的所有链接路径转换为相对路径\""
+                },
+                {
+                    "source": "name:\"Delete empty folders\"",
+                    "target": "name:\"删除空文件夹\""
+                },
+                {
+                    "source": "name:\"Move attachment to proper folder\"",
+                    "target": "name:\"移动附件到合适文件夹\""
+                },
+                {
+                    "source": "name:\"Reorganize vault\"",
+                    "target": "name:\"重新组织库\""
+                },
+                {
+                    "source": "name:\"Replace all wiki embeds with Markdown embeds\"",
+                    "target": "name:\"替换所有wiki嵌入为Markdown嵌入\""
+                },
+                {
+                    "source": "name:\"Replace all wiki embeds with Markdown embeds in current note\"",
+                    "target": "name:\"替换当前笔记中所有wiki嵌入为Markdown嵌入\""
+                },
+                {
+                    "source": "name:\"Replace all wikilinks with markdown links\"",
+                    "target": "name:\"将所有维基链接替换为 Markdown 链接\""
+                },
+                {
+                    "source": "name:\"Replace all wikilinks with markdown links in current note\"",
+                    "target": "name:\"替换当前笔记中所有wikilink为markdown链接\""
+                },
+                {
+                    "source": "description:\"all files are renamed.\"",
+                    "target": "description:\"所有文件都被重命名。\""
+                },
+                {
+                    "source": "description:\"their names are preserved.\"",
+                    "target": "description:\"它们的名称被保留。\""
+                },
+                {
+                    "source": "description:\"only pasted images are renamed. Applies only when the PNG image content is pasted from the clipboard directly. Typically, for pasting screenshots.\"",
+                    "target": "description:\"只有粘贴的图片被重命名。仅当PNG图片内容直接从剪贴板粘贴时适用。通常用于粘贴截图。\""
+                },
+                {
+                    "source": "description:\"cancel the attachment collecting.\"",
+                    "target": "description:\"取消附件收集。\""
+                },
+                {
+                    "source": "description:\"copy the attachment to the new location.\"",
+                    "target": "description:\"将附件复制到新位置。\""
+                },
+                {
+                    "source": "description:\"move the attachment to the new location.\"",
+                    "target": "description:\"将附件移动到新位置。\""
+                },
+                {
+                    "source": "description:\"prompt the user to choose the action.\"",
+                    "target": "description:\"提示用户选择操作。\""
+                },
+                {
+                    "source": "description:\"skip the attachment and proceed to the next one.\"",
+                    "target": "description:\"跳过附件并继续处理下一个\""
+                },
+                {
+                    "source": "description:\"will delete the empty attachment folder.\"",
+                    "target": "description:\"将删除空的附件文件夹。\""
+                },
+                {
+                    "source": "name:\"Empty attachment folder behavior\"",
+                    "target": "name:\"空附件文件夹行为\""
+                },
+                {
+                    "source": "name:\"Exclude paths\"",
+                    "target": "name:\"排除路径\""
+                },
+                {
+                    "source": "name:\"Exclude paths from attachment collecting\"",
+                    "target": "name:\"从附件收集中排除路径\""
+                },
+                {
+                    "source": "name:\"Generated attachment file name\"",
+                    "target": "name:\"生成的附件文件名\""
+                },
+                {
+                    "source": "name:\"Include paths\"",
+                    "target": "name:\"包含路径\""
+                },
+                {
+                    "source": "description:\"The smaller the quality, the greater the compression ratio.\"",
+                    "target": "description:\"质量越小，压缩比越大。\""
+                },
+                {
+                    "source": "name:\"JPEG Quality\"",
+                    "target": "name:\"JPEG 质量\""
+                },
+                {
+                    "source": "name:\"Location for new attachments\"",
+                    "target": "name:\"新附件的位置\""
+                },
+                {
+                    "source": "name:\"Markdown URL format\"",
+                    "target": "name:\"Markdown URL 格式\""
+                },
+                {
+                    "source": "name:\"Move attachment to proper folder used by multiple notes mode\"",
+                    "target": "name:\"将附件移动到多笔记模式使用的正确文件夹\""
+                },
+                {
+                    "source": "name:\"Renamed attachment file name\"",
+                    "target": "name:\"重命名附件文件名称\""
+                },
+                {
+                    "source": "description:\"Whether to convert pasted images to JPEG. Applies only when the PNG image content is pasted from the clipboard directly. Typically, for pasting screenshots.\"",
+                    "target": "description:\"是否将粘贴的图片转换为JPEG。仅当从剪贴板直接粘贴PNG图像内容时适用。通常用于粘贴截图。\""
+                },
+                {
+                    "source": "name:\"Should convert pasted images to JPEG\"",
+                    "target": "name:\"应转换粘贴的图片为JPEG\""
+                },
+                {
+                    "source": "description:\"If enabled, when the note is deleted, its orphan attachments are deleted as well.\"",
+                    "target": "description:\"如果启用，当笔记被删除时，其孤立附件也会被删除。\""
+                },
+                {
+                    "source": "name:\"Should delete orphan attachments\"",
+                    "target": "name:\"应删除孤立附件\""
+                },
+                {
+                    "source": "description:\"Whether to handle renames.\"",
+                    "target": "description:\"是否处理重命名。\""
+                },
+                {
+                    "source": "name:\"Should handle renames\"",
+                    "target": "name:\"应处理重命名\""
+                },
+                {
+                    "source": "name:\"Should rename attachment files\"",
+                    "target": "name:\"应重命名附件文件\""
+                },
+                {
+                    "source": "description:\"Whether to rename attachment folders when a note is renamed or moved.\"",
+                    "target": "description:\"当笔记被重命名或移动时，是否重命名附件文件夹。\""
+                },
+                {
+                    "source": "name:\"Should rename attachment folders\"",
+                    "target": "name:\"应重命名附件文件夹\""
+                },
+                {
+                    "source": "name:\"Should rename collected attachments\"",
+                    "target": "name:\"应重命名收集的附件\""
+                },
+                {
+                    "source": "name:\"Special characters\"",
+                    "target": "name:\"特殊字符\""
+                },
+                {
+                    "source": "name:\"Special characters replacement\"",
+                    "target": "name:\"特殊字符替换\""
+                },
+                {
+                    "source": "name:\"Timeout in seconds\"",
+                    "target": "name:\"超时（秒）\""
+                },
+                {
+                    "source": "name:\"Treat as attachment extensions\"",
+                    "target": "name:\"视为附件扩展名\""
+                },
+                {
+                    "source": "text:\"Read more\"",
+                    "target": "text:\"了解更多\""
+                }
+            ]
+        }
+    }
+}
